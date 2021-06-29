@@ -291,7 +291,7 @@ body {
       padding-top: 20px;
     } */
   }
-  
+
   @media screen and (max-width:500px) {
     .navbar-logo {
       padding-left: 20px;
@@ -302,12 +302,9 @@ body {
     .main-content {
       padding:0
     }
-    #row1, #row2, #row3, #row4 {
-      padding:20px 100px;
-    }
     .card {
       height: fit-content;
-      width: 90%;
+      width: 300px;
       margin: auto;
     }
 

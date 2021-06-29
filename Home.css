@@ -291,6 +291,31 @@ body {
       padding-top: 20px;
     } */
   }
+  
+  @media screen and (max-width:500px) {
+    .navbar-logo {
+      padding-left: 20px;
+    }
+    .navbar .navbar-icon {
+      right: 25px
+    }
+    .main-content {
+      padding:0
+    }
+    #row1, #row2, #row3, #row4 {
+      padding:20px 100px;
+    }
+    .card {
+      height: fit-content;
+      /* width: 80%; */
+      margin: auto;
+    }
+
+    .card-text {
+      padding: 5px 7px;
+    }
+  }
+
   @media screen and (min-width: 500px) {
     #row1, #row2, #row3, #row4 {
       padding:20px 50px;

@@ -195,6 +195,16 @@ body {
     padding:20px 80px;
   }
 
+  .footer {
+    bottom: 0;
+    left: 0;
+    background-color: EEE;
+    width: 100%;
+    text-align: center;
+    padding:10px 0;
+    border-top: 1px solid #666;;
+  }
+
   @media screen and (max-width:1400){
 
   }
@@ -216,7 +226,7 @@ body {
       background-color: #BBB;
       border-radius: 3px;
       margin:10px 0px;
-      right: 100px;
+      right: 30px;
       position: absolute;
     }
 
@@ -234,7 +244,7 @@ body {
     .navbar.responsive-nav .navbar-icon {
       position: absolute;
       top:0;
-      right:10%
+      right:30px
     }
 
     .navbar.responsive-nav li, .navbar.responsive-nav .dropdown{
@@ -249,7 +259,7 @@ body {
       display: none;
       position: relative;
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-      z-index: 1;
+      z-index: 5;
       background-color: #f1f1f1;
       min-width:150px;
       text-align: left;
@@ -303,7 +313,7 @@ body {
       padding:0
     }
     #row1, #row2, #row3, #row4 {
-      padding:0;
+      padding-top:20px;
     }
     .card {
       height: fit-content;
@@ -317,12 +327,18 @@ body {
   }
 
   @media screen and (min-width: 500px) {
+    .navbar-logo {
+      padding-left: 20px;
+    }
+    .navbar .navbar-icon {
+      right: 25px
+    }
     #row1, #row2, #row3, #row4 {
       padding:20px 50px;
     }
     .card {
       height: fit-content;
-      width: 70%;
+      width: 300px;
       margin: auto;
     }
     .card-text {
@@ -334,12 +350,18 @@ body {
   }
 
   @media screen and (min-width: 600px) {
+    .navbar-logo {
+      padding-left: 20px;
+    }
+    .navbar .navbar-icon {
+      right: 25px
+    }
     #row1, #row2, #row3, #row4 {
       padding:20px 50px;
     }
     .card {
       height: fit-content;
-      width: 70%;
+      width: 300px;
       margin: auto;
     }
     .card-text {
@@ -373,6 +395,12 @@ body {
       position: relative;
       margin-bottom: 30px;
     }
+    .dropdown-col {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+      position: relative;
+    }
 
   }
 
@@ -380,12 +408,12 @@ body {
     
     .card {
       height: fit-content;
-      width: 90%;
+      width:80%;
       margin: auto;
     }
     #row1, #row2, #row3, #row4 {
-      padding:20px 40px;
-      margin-bottom: 20px;
+      padding:0 30px;
+      margin-bottom:50px;
     }
 
     .card-img img{
@@ -397,7 +425,7 @@ body {
       padding: 5px 7px;
     }
     .main-content {
-      padding:0 100px
+      padding:0 
     }
   }
 
